@@ -1,0 +1,55 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:90vh;
+    width:90wh;
+
+}
+
+.container{
+ display: flex;
+ flex-direction:column;
+ align-items: center;
+ justify-content: center;
+ width:390px;
+ height:400px;
+ background-color: #3d405b;
+ justify-content: space-around;
+ 
+}
+
+
+/* div{
+    line-height: 4rem;
+} */
+
+.clock{
+    background-color: #f2cc8f;
+    font-family:'Mohave', sans-serif;
+    display:flex;
+    flex-direction: row;
+    width:200px;
+    height:40px;
+    align-items: center;
+    justify-content: space-around;  
+    margin-bottom: -1.5rem;
+}
+.short{
+    font-family:'Mohave', sans-serif;
+}
+
+
+.date{
+    width:200px;
+    height:50px;
+    background-color: #f2cc8f;
+    font-family:'Mohave', sans-serif;
+    display:flex;
+    font-size: larger;
+    font-weight: bolder;
+ align-items: center;
+ justify-content: center;
+ margin-top: -1.5rem;
+}
